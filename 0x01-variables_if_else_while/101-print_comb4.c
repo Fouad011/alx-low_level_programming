@@ -13,9 +13,9 @@ int main(void)
 
 	for (p = 0; p < 8; p++)
 	{
-		for (q; q < 9; q++)
+		for (; q < 9; q++)
 		{
-			for (l; l < 10; l++)
+			for (; l < 10; l++)
 			{
 				putchar('0' + p);
 				putchar('0' + q);
