@@ -8,6 +8,7 @@ int main(void)
 	int p = 0;
 	int n = 1;
 	int q = 1;
+
 	for (p = 0; p < 9; p++)
 	{
 		for (q; q < 10; q++)
@@ -23,5 +24,6 @@ int main(void)
 		q = ++n;
 	}
 	putchar('\n');
+
 	return (0);
 }
